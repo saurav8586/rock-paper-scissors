@@ -46,7 +46,11 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.20.1</version>
+         <version>3.0.0-M3</version>
+                <configuration>
+                <testFailureIgnore>true</testFailureIgnore>
+                <shutdown>kill</shutdown> <!-- Use it if required-->
+                </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
