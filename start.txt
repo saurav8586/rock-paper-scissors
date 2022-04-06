@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-/** This is some JavaDoc */
+/** This is some Ramdon JavaDoc */
 public class HelloWorld {
 
 	public static void main(String[] args) {
